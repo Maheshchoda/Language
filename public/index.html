@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Language Vote</title>
+  <style>
+    .hidden { display: none; }
+    button{
+      width: 100px
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="chartContainer" style="height: 500px;width:100%"></div>
+    <h5 style="text-align: center" id="chartTitle"></h5>
+    <hr>
+    <h1 class='text-center'>Vote for your favourite language</h1>
+    <form id="vote-form">
+      <div class="container">
+        <div class="form-group text-center">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="language" id="Go" value="Go" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Go</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="language" id='Javascript' value="Javascript" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Javascript</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline3" name="language" id='Dart' value="Dart" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline3">Dart</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline4" name="language" id='Python' value="Python" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline4">Python</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline5" name="language" id='Java' value="Java" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline5">Java</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline6" name="language" id='Others' value="Others" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline6">Other</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary ">Vote</button>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+  </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

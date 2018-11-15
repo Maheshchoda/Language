@@ -1,0 +1,22 @@
+{
+  "name": "toplanguage",
+  "version": "1.0.1",
+  "description": "Real time polling app to find out the Top language by 2022",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "MaheshCHODA",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.2",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
